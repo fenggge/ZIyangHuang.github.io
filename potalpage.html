@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Ziyang Huang's Portal Page</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    section {
+
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: .2fr 1.6fr .2fr;
+      max-width: 150vw;
+      margin: auto;
+    }
+
+    header {
+      grid-row: 1;
+      grid-column: 1 / 5;
+      background-color: #bba770;
+      padding-left: 3rem;
+      padding-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: 2em;
+    }
+
+    h2 {
+      font-size: 1em;
+    }
+
+    /*The aside item is set to grid row 2 and set to span just from column lines 1 to 2*/
+
+    aside {
+      min-height: 50vh;
+      background-color: #40ac59;
+      grid-row: 2;
+      grid-column: 1 / 2;
+    }
+
+    /*This section item is set to grid row 2 and set to span  from column lines 2 to 5*/
+
+    section {
+      background-color: #9fbd5e;
+      grid-row: 2;
+      grid-column: 2/ 5;
+    }
+
+    /*The footer item is set to row 3 and set to span column lines 1-5, ie.
+  all 4 columns that were set for the container*/
+
+    footer {
+      background-color: #d772ac;
+      grid-row: 3;
+      grid-column: 1 / 5;
+      text-align: center;
+      padding: 2rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="pagecontainer">
+
+    <header>
+
+      <h1>Ziyang Huang's Portal Page</h1>
+    </header>
+
+    <section>
+
+      <article>
+        <h2>Project</h2>
+        <ol>
+          <li> <a href="#">Project 1 </a> </li>
+
+          <li><a href="#">Project 2 </a></li>
+
+          <li><a href="#">Project 3 </a></li>
+        </ol>
+      </article>
+
+
+
+      <article>
+        <h2>Exercises</h2>
+        <ol>
+          <li><a href="ziyang-storyremix.html">Exercise 1 </a></li>
+          <li><a href="ziyang.mark1.html">Exercise 2.1 </a></li>
+          <li><a href="ziyang.mark2.html">Exercise 2.2 </a></li>
+          <li><a href="ziyang.mark3.html">Exercise 2.3 </a></li>
+          <li><a href="ex3.html">Exercise 3 </a></li>
+          <li><a href="./ziyangex4/boxmodel-game.html">Exercise 4 </a></li>
+          <li> <a href="#">Exercise 5 </a></li>
+          <li><a href="#">Exercise 6 </a></li>
+          <li><a href="#">Exercise 7 </a></li>
+        </ol>
+      </article>
+
+      <article>
+        <h2>Blog Entries</h2>
+        <ol>
+          <li><a href="#">Blog One</a></li>
+
+          <li><a href="#">Blog Two</a></li>
+        </ol>
+      </article>
+
+
+      <article>
+        <h2>About</h2>
+        <ol>
+          <li> <a href="#">Description</a></li>
+
+          <li><a href="#">Where to find me</a></li>
+        </ol>
+      </article>
+
+
+      <article>
+        <h2>Need Help?</h2>
+        <ol>
+          <li><a href="#">Inspirations</a></li>
+
+          <li><a href="#">Useful Websites</a></li>
+        </ol>
+      </article>
+
+    </section>
+
+    <footer>
+
+
+      <h2>Contact Information</h2>
+      <p>
+        <br>Name: Ziyang Huang
+        <br>Email: ocehuang@ucdavis.edu
+        <br>Phone: 530-400-6206
+        <br> <a href="#">Validating my page</a>
+
+      </p>
+
+
+
+      <p>Ziyang Huang</p>
+      <a href="http://validator.w3.org/check?uri=referer">Valid HTML5</a>
+    </footer>
+  </div>
+</body>
+
+</html>
