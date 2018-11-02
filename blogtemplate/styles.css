@@ -8,9 +8,13 @@ in the middle of the browser no matter how wide you stretch the browser*/
 }
 
 header {
-  background: #a2d492;
-  padding: 2rem;
+  background: #e7d067;
+  padding: 4rem;
   text-align: center;
+}
+img{  height: 60%;
+  width: 60%;
+
 }
 /*Unordered list in the navbar is set to display flex with wrapping
 so at smaller size-mobile width--it wraps vertically in a row
@@ -21,12 +25,13 @@ nav ul {
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
+  padding: 0;
 }
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
-  background: #11b840;
+  background: #4b8552;
   height: 2rem;
-  width: 36rem;
+  width: 19rem;
   padding-top: 1rem;
   border-color: black;
   border: solid;
@@ -36,8 +41,8 @@ nav ul li {
 /*Takes away the default underlining of links and sets color of menu font*/
 nav ul li a {
   text-decoration: none;
-  font-size: 1.2em;
-  color: #e7d067;
+  font-size: 1.4em;
+  color: orange;
 }
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
@@ -55,7 +60,8 @@ article {
 }
 
 footer {
-  background: #a2d492;
+  background: #e7d067;
   padding: 2rem;
   text-align: center;
+  font-size: 1.3rem;
 }
