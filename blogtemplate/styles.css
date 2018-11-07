@@ -3,12 +3,12 @@
 to 90% of viewport width and margin:auto centers the page
 in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
-  margin: auto;
-  width: 90vw;
+  margin: 0;
+  width: auto;
 }
 
 header {
-  background: #e7d067;
+  background: lightblue;
   padding: 4rem;
   text-align: center;
 }
@@ -29,7 +29,7 @@ nav ul {
 }
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
-  background: #4b8552;
+  background: lightblue;
   height: 2rem;
   width: 19rem;
   padding-top: 1rem;
@@ -42,16 +42,16 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 1.4em;
-  color: orange;
+  color: black;
 }
 /*Active psuedoclass is used so When you click on a menu item it turns orange.*/
 nav ul li:active {
-  background: #e9892f;
+  background: darkgrey;
 }
 /*This class should be applied to html differently on each page to let user know
 which page you are on--in this case the home page*/
 .locationmarker {
-  background: #4b8552;
+  background: lightblue;
 }
 
 article {
@@ -60,8 +60,17 @@ article {
 }
 
 footer {
-  background: #e7d067;
+  background: lightblue;
   padding: 2rem;
   text-align: center;
   font-size: 1.3rem;
 }
+
+/* typography */
+body {font-family: 'Roboto', sans-serif;
+font-family: 'Kumar One Outline', cursive;
+font-family: 'Lato', sans-serif;}
+
+h1 {font-family: 'Roboto', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Kumar One Outline', cursive;}
