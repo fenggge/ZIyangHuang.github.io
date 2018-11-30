@@ -1,0 +1,86 @@
+
+/*Sets the width of the overall page container div
+to 90% of viewport width and margin:auto centers the page
+in the middle of the browser no matter how wide you stretch the browser*/
+body{
+  background-color: white;
+}
+.pagecontainer {
+  margin: auto;
+  width: auto;
+}
+
+header {
+  background-image: url("https://images.template.net/wp-content/uploads/2017/02/07211216/Sunset-Over-Ocean-Painting.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 9rem;
+  text-align: center;
+  font-size: 3rem;
+}
+img{  height: 60%;
+  width: 60%;
+
+}
+/*Unordered list in the navbar is set to display flex with wrapping
+so at smaller size-mobile width--it wraps vertically in a row
+and at larger screen widths it spreads more horizontally.
+And justify-content centers flex blox content*/
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+/*Sets background color of nav list elements and their width and height*/
+nav ul li {
+  background: lightblue;
+    height: 4rem;
+    width: 25%;
+    border-color: black;
+    border: solid;
+    border-width: 0px;
+    text-align: center;
+    padding-top: 2rem;
+}
+/*Takes away the default underlining of links and sets color of menu font*/
+nav ul li a {
+  text-decoration: none;
+  font-size: 1.4em;
+  color: black;
+}
+/*Active psuedoclass is used so When you click on a menu item it turns orange.*/
+nav ul li:active {
+  background: darkgrey;
+}
+/*This class should be applied to html differently on each page to let user know
+which page you are on--in this case the home page*/
+.locationmarker {
+  background: lightblue;
+}
+
+article {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 800px;
+  position:relative;
+
+}
+article p{font-family: 'Noto Sans SC', sans-serif;
+
+}
+article h2{font-family: 'Noto Sans SC', sans-serif;}
+footer {
+  background: lightblue;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+
+}
+
+/* typography */
+body {font-family: 'Pacifico', cursive;}
+
+h1 {font-family: 'Pacifico', cursive;}
